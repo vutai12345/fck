@@ -1,0 +1,87 @@
+{
+  "parent": "raspberryflavoured:diamond_armour",
+  "criteria": {
+    "Obtain Electrum Helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:electrum_helmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Electrum Chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:electrum_chestplate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Electrum Leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:electrum_leggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Electrum Boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oreganized:electrum_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Make a full set of electrum armour - you'll need to have visited another dimension to make electrum..."
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "oreganized:electrum_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Hermes' Gift"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_challenge"
+    },
+  "requirements": [
+    [
+      "Obtain Electrum Helmet"
+    ],
+	[
+      "Obtain Electrum Chestplate"
+    ],
+	[
+      "Obtain Electrum Leggings"
+    ],
+	[
+      "Obtain Electrum Boots"
+    ]
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "parent": "raspberryflavoured:feast",
+  "criteria": {
+    "Consume Blaze Tart": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "create:blaze_cake"
+          ]
+        }
+      }
+    },
+    "Consume Dog Food": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "farmersdelight:dog_food"
+          ]
+        }
+      }
+    },
+    "Consume Horse Feed": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "farmersdelight:horse_feed"
+          ]
+        }
+      }
+    },
+    "Consume Slabdish": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "abnormals_delight:slabdish"
+          ]
+        }
+      }
+    },
+    "Consume Hot Cream Cone": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "mynethersdelight:hot_cream_cone"
+          ]
+        }
+      }
+    },
+    "Consume Cat Food": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "kubejs:cat_food"
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Eat dog food, cat food, horse feed, slabdish, a hot cream cone and a blaze tart... hey, those weren't for you!"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "farmersdelight:dog_food"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Questionable Diet"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_joke"
+    },
+  "requirements": [
+    [
+      "Consume Blaze Tart"
+    ],
+    [
+      "Consume Dog Food"
+    ],
+    [
+      "Consume Horse Feed"
+    ],
+    [
+      "Consume Slabdish"
+    ],
+    [
+      "Consume Hot Cream Cone"
+    ],
+	[
+	  "Consume Cat Food"
+	]
+  ]
+}

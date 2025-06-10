@@ -1,0 +1,6 @@
+modname:fastpaintings
+
+block:id=%painting,state=facing:north,transparency=SEMITRANSPARENT,stdrot=true
+block:id=%painting,state=facing:south,transparency=SEMITRANSPARENT,stdrot=true
+block:id=%painting,state=facing:west,transparency=SEMITRANSPARENT,stdrot=true
+block:id=%painting,state=facing:east,transparency=SEMITRANSPARENT,stdrot=true

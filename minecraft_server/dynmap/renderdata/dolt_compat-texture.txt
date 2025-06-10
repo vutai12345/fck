@@ -1,0 +1,10 @@
+modname:dolt_compat
+
+texture:id=glowshroom_colony_stage0,filename=assets/dolt_compat/textures/block/glowshroom_colony_stage0.png,xcount=1,ycount=1
+texture:id=glowshroom_colony_stage1,filename=assets/dolt_compat/textures/block/glowshroom_colony_stage1.png,xcount=1,ycount=1
+texture:id=glowshroom_colony_stage2,filename=assets/dolt_compat/textures/block/glowshroom_colony_stage2.png,xcount=1,ycount=1
+texture:id=glowshroom_colony_stage3,filename=assets/dolt_compat/textures/block/glowshroom_colony_stage3.png,xcount=1,ycount=1
+block:id=%glowshroom_colony,state=age:0,patch0=0:glowshroom_colony_stage0,transparency=TRANSPARENT,stdrot=true
+block:id=%glowshroom_colony,state=age:1,patch0=0:glowshroom_colony_stage1,transparency=TRANSPARENT,stdrot=true
+block:id=%glowshroom_colony,state=age:2,patch0=0:glowshroom_colony_stage2,transparency=TRANSPARENT,stdrot=true
+block:id=%glowshroom_colony,state=age:3,patch0=0:glowshroom_colony_stage3,transparency=TRANSPARENT,stdrot=true

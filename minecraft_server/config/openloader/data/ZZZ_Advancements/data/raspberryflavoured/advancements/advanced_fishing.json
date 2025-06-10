@@ -1,0 +1,50 @@
+{
+  "parent": "raspberryflavoured:fishing_rod",
+  "criteria": {
+    "Obtain Reinforced Fishing Rod": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aquaculture:iron_fishing_rod"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "Place down Tackle Box": {
+      "conditions": {
+        "block": "aquaculture:tackle_box"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Upgrade to a reinforced fishing rod and place down a tackle box, where you can customise your reinforced rod and attach bait to it"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "aquaculture:iron_fishing_rod"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Man I Love Fishing"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "Obtain Reinforced Fishing Rod"
+    ],
+    [
+      "Place down Tackle Box"
+    ]
+  ]
+}

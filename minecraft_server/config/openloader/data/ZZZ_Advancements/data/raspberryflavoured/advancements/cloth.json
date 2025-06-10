@@ -1,0 +1,41 @@
+{
+  "parent": "raspberryflavoured:knife",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:cloth_scrap"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Obtain cloth scrap by killing mobs wearing clothes such as zombies - you'll need those scraps to make a bed!"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "kubejs:cloth_scrap"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Rags Without Riches"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

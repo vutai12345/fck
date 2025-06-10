@@ -1,0 +1,5 @@
+modname:dolt_mod_how
+
+texture:id=deepslate_furnace_top,filename=assets/quark/textures/block/deepslate_furnace_top.png,xcount=1,ycount=1
+block:id=%sturdy_deepslate,patch0=0:deepslate_furnace_top,patch1=0:deepslate_furnace_top,patch2=0:deepslate_furnace_top,patch3=0:deepslate_furnace_top,patch4=0:deepslate_furnace_top,patch5=0:deepslate_furnace_top,stdrot=true
+block:id=%lanternfish_barrel,stdrot=true

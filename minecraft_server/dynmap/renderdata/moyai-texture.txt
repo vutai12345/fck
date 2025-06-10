@@ -1,0 +1,11 @@
+modname:moyai
+
+texture:id=moyai_top,filename=assets/moyai/textures/blocks/moyai_top.png,xcount=1,ycount=1
+texture:id=moyai_left,filename=assets/moyai/textures/blocks/moyai_left.png,xcount=1,ycount=1
+texture:id=moyai_right,filename=assets/moyai/textures/blocks/moyai_right.png,xcount=1,ycount=1
+texture:id=moyai_front,filename=assets/moyai/textures/blocks/moyai_front.png,xcount=1,ycount=1
+texture:id=moyai_back,filename=assets/moyai/textures/blocks/moyai_back.png,xcount=1,ycount=1
+block:id=%moyai,state=facing:north,patch0=0:moyai_left,patch1=0:moyai_top,patch2=0:moyai_front,patch3=0:moyai_right,patch4=0:moyai_top,patch5=0:moyai_back,stdrot=true
+block:id=%moyai,state=facing:south,patch0=0:moyai_top,patch1=0:moyai_left,patch2=0:moyai_right,patch3=0:moyai_front,patch4=0:moyai_back,stdrot=true
+block:id=%moyai,state=facing:west,patch0=0:moyai_top,patch1=0:moyai_left,patch2=0:moyai_right,patch3=0:moyai_front,patch4=0:moyai_back,stdrot=true
+block:id=%moyai,state=facing:east,patch0=0:moyai_top,patch1=0:moyai_left,patch2=0:moyai_right,patch3=0:moyai_front,patch4=0:moyai_back,stdrot=true

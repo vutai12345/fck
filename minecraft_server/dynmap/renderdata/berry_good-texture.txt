@@ -1,0 +1,6 @@
+modname:berry_good
+
+texture:id=sweet_berry_bush_pips,filename=assets/berry_good/textures/block/sweet_berry_bush_pips.png,xcount=1,ycount=1
+texture:id=cave_vine_pips,filename=assets/berry_good/textures/block/cave_vine_pips.png,xcount=1,ycount=1
+block:id=%sweet_berry_bush_pips,patch0=0:sweet_berry_bush_pips,transparency=TRANSPARENT,stdrot=true
+block:id=%cave_vine_pips,patch0=0:cave_vine_pips,transparency=TRANSPARENT,stdrot=true

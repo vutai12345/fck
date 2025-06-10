@@ -1,0 +1,52 @@
+{
+  "parent": "raspberryflavoured:smithing_table",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alloyed:steel_helmet",
+			  "alloyed:steel_chestplate",
+			  "alloyed:steel_leggings",
+			  "alloyed:steel_boots",
+			  "alloyed:steel_pickaxe",
+			  "alloyed:steel_shovel",
+			  "alloyed:steel_axe",
+			  "alloyed:steel_hoe",
+			  "alloyed:steel_sword",
+			  "alloyed:steel_knife",
+			  "kubejs:steel_horse_armor",
+			  "mace_backport:mace"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Mix iron, lead and blaze powder in a heated mixer to get steel and use it in a smithing table to upgrade your chainmail armour and your iron tools - steel equipment isn't the fastest, but is super durable, knocks foes far away and protects against projectiles"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "alloyed:steel_axe"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Man of Steel"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

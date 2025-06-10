@@ -1,0 +1,8 @@
+modname:exposure
+
+modellist:id=%lightroom,state=facing:south/lit:true,box=0.000000/0.000000/0.000000:16.000000/16.000000/16.000000:w/1:e/1:d/0:n/3:s/1:u/2:R/0/180/0
+modellist:id=%lightroom,state=facing:south/lit:false,box=0.000000/0.000000/0.000000:16.000000/16.000000/16.000000:w/1:e/1:d/0:n/3:s/1:u/2:R/0/180/0
+modellist:id=%lightroom,state=facing:west/lit:true,box=0.000000/0.000000/0.000000:16.000000/16.000000/16.000000:w/1:e/1:d/0:n/3:s/1:u/2:R/0/270/0
+modellist:id=%lightroom,state=facing:west/lit:false,box=0.000000/0.000000/0.000000:16.000000/16.000000/16.000000:w/1:e/1:d/0:n/3:s/1:u/2:R/0/270/0
+modellist:id=%lightroom,state=facing:east/lit:true,box=0.000000/0.000000/0.000000:16.000000/16.000000/16.000000:w/1:e/1:d/0:n/3:s/1:u/2:R/0/90/0
+modellist:id=%lightroom,state=facing:east/lit:false,box=0.000000/0.000000/0.000000:16.000000/16.000000/16.000000:w/1:e/1:d/0:n/3:s/1:u/2:R/0/90/0

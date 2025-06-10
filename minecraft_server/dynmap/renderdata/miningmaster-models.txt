@@ -1,0 +1,8 @@
+modname:miningmaster
+
+modellist:id=%gem_forge,state=facing:south/lit:true,box=0.000000/0.000000/0.000000:16.000000/16.000000/16.000000:w/1:e/1:d/0:n/2:s/1:u/0:R/0/180/0
+modellist:id=%gem_forge,state=facing:south/lit:false,box=0.000000/0.000000/0.000000:16.000000/16.000000/16.000000:w/1:e/1:d/0:n/2:s/1:u/0:R/0/180/0
+modellist:id=%gem_forge,state=facing:west/lit:true,box=0.000000/0.000000/0.000000:16.000000/16.000000/16.000000:w/1:e/1:d/0:n/2:s/1:u/0:R/0/270/0
+modellist:id=%gem_forge,state=facing:west/lit:false,box=0.000000/0.000000/0.000000:16.000000/16.000000/16.000000:w/1:e/1:d/0:n/2:s/1:u/0:R/0/270/0
+modellist:id=%gem_forge,state=facing:east/lit:true,box=0.000000/0.000000/0.000000:16.000000/16.000000/16.000000:w/1:e/1:d/0:n/2:s/1:u/0:R/0/90/0
+modellist:id=%gem_forge,state=facing:east/lit:false,box=0.000000/0.000000/0.000000:16.000000/16.000000/16.000000:w/1:e/1:d/0:n/2:s/1:u/0:R/0/90/0

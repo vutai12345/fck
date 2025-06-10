@@ -1,0 +1,42 @@
+{
+  "parent": "raspberryflavoured:ceramic_shears",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+			  "another_furniture:furniture_hammer"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Craft a hammer - it'll let you manually crush up various things on a cutting board such as wheat, bones, cobblestone, cinnabar and mob heads, but you can also use it to manually press copper and gold ingots into sheets (with a small loss chance)"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "another_furniture:furniture_hammer",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Gettin' Me Hammer"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

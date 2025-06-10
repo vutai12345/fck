@@ -1,0 +1,33 @@
+{
+  "parent": "raspberryflavoured:obsidian",
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Obtain a potion"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:potion",
+	  "nbt": "{Potion: \"minecraft:regeneration\"}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Your Strongest Potions"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "parent": "raspberryflavoured:smithing_template",
+  "criteria": {
+    "Obtain Netherite Broad Axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "clash:swept_axe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Electrum Spear": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "clash:spear"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Necromium Claymore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "clash:greatblade"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Steel Mace": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mace_backport:mace"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Rose Gold Rapier": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:rose_gold_rapier"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Forge all five modified weapons"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "kubejs:rose_gold_rapier",
+      "nbt": "{\"quark:RuneAttached\": 1b, Enchantments: [{id:\"minecraft:smite\", lvl: 1}], \"quark:RuneColor\": {id: \"quark:rainbow_rune\", Count: 1b}}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "By Their Powers Combined"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_challenge"
+    },
+  "requirements": [
+    [
+      "Obtain Netherite Broad Axe"
+    ],
+	[
+      "Obtain Electrum Spear"
+    ],
+	[
+      "Obtain Necromium Claymore"
+    ],
+	[
+      "Obtain Steel Mace"
+    ],
+	[
+      "Obtain Rose Gold Rapier"
+    ]
+  ]
+}

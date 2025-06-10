@@ -1,0 +1,41 @@
+{
+  "parent": "raspberryflavoured:smithing_template",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:everlasting_tablet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Crush a Nether Star into Stardust and use it to forge an Everlasting Tablet"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "kubejs:everlasting_tablet"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Fleeting Beauty Isn't Silent"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_challenge"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

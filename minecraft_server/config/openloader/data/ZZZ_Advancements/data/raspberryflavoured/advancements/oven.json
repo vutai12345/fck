@@ -1,0 +1,35 @@
+{
+  "parent": "raspberryflavoured:campfire",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "block": "cookscollection:oven"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Craft and place down an oven on a heated block like a lit campfire or stove to cook meals and baked goods"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "cookscollection:oven"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Let's Bake Some Magic!"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "parent": "raspberryflavoured:forge",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:aquatic_tablet",
+              "kubejs:beastly_tablet",
+              "kubejs:cyclic_tablet",
+              "kubejs:enduring_tablet",
+              "kubejs:everlasting_tablet",
+              "kubejs:flinging_tablet",
+              "kubejs:glacial_tablet",
+              "kubejs:hallowed_tablet",
+              "kubejs:haunted_tablet",
+              "kubejs:heavy_tablet",
+              "kubejs:infested_tablet",
+              "kubejs:otherworldly_tablet",
+              "kubejs:piercing_tablet",
+              "kubejs:pulling_tablet",
+              "kubejs:silent_tablet",
+              "kubejs:swift_tablet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Find or create any enchanted tablet, which you can use to apply enchantments to your equipment - you can apply them at a smithing table!"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "kubejs:flinging_tablet"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Metal and Magic"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}
