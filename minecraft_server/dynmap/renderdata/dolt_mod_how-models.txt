@@ -1,0 +1,3 @@
+modname:dolt_mod_how
+
+modellist:id=%lanternfish_barrel

@@ -1,0 +1,32 @@
+{
+  "parent": "raspberryflavoured:hunting_root",
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#CE3131",
+      "text": "Throw creeper spores to summon a bunch of friendly creepies that will attack mobs"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "savage_and_ravage:creeper_spores"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Suicide Squad"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

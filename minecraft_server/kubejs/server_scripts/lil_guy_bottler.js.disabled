@@ -1,0 +1,41 @@
+// priority: 0
+
+// item to right click on the mob with
+const capturingItem = 'minecraft:glass_bottle'
+
+// item gotten when the mob is clicked - can be anything, but should obviously be a custom item
+const capturedItem = 'minecraft:feather'
+
+// placing the mob
+BlockEvents.rightClicked(event => {
+    if (event.item.id === capturedItem) {
+        let pos = event.player.rayTrace().block.offset(event.facing)
+        let mob = event.level.createEntity("savage_and_ravage:creepie") // the creepie can be any mob id
+        mob.mergeNbt(event.item.nbt.CapturedData)
+        mob.x = pos.x + 0.5
+        mob.y = pos.y
+        mob.z = pos.z + 0.5
+        mob.spawn()
+        event.level.playSound(null, pos.x, pos.y, pos.z, 'item.bottle.fill_dragonbreath', 'players', 1, 1)
+        if (!event.player.isCreative()) {
+            event.item.count --
+            event.player.giveInHand(capturingItem)
+        }
+        event.player.swing(event.hand, true)
+    }
+})
+
+// picking up the mob
+ItemEvents.entityInteracted(event => {
+    if (event.item.id === capturingItem && event.target.type == 'savage_and_ravage:creepie') { // the creepie can be any mob id
+        event.level.playSound(null, event.target.x, event.target.y, event.target.z, 'item.bottle.fill_dragonbreath', 'players', 1, 1)
+        let nbt = event.target.nbt
+        delete nbt.UUID
+        if (!event.player.isCreative()) {
+            event.item.count --
+        }
+        event.player.giveInHand(Item.of(capturedItem, {CapturedData: nbt}))
+		event.target.discard()
+		event.player.swing(event.hand, true)
+    }
+})

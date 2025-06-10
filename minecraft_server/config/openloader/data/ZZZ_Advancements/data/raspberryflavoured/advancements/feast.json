@@ -1,0 +1,95 @@
+{
+  "parent": "raspberryflavoured:oven",
+  "criteria": {
+    "Place down Roast Chicken": {
+      "conditions": {
+        "block": "farmersdelight:roast_chicken_block"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Stuffed Pumpkin": {
+      "conditions": {
+        "block": "farmersdelight:stuffed_pumpkin_block"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Honey Glazed Ham": {
+      "conditions": {
+        "block": "farmersdelight:honey_glazed_ham_block"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Shepherd's Pie": {
+      "conditions": {
+        "block": "farmersdelight:shepherds_pie_block"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Rice Roll Medley": {
+      "conditions": {
+        "block": "farmersdelight:rice_roll_medley_block"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Stuffed Hoglin": {
+      "conditions": {
+        "block": "mynethersdelight:stuffed_hoglin"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Fiery Fondue Pot": {
+      "conditions": {
+        "block": "brewinandchewin:fiery_fondue_pot"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Eggplant Parmesan": {
+      "conditions": {
+        "block": "kubejs:eggplant_parmesan_block"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Stuffed Squid": {
+      "conditions": {
+        "block": "miners_delight:stuffed_squid"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Striderloaf": {
+      "conditions": {
+        "block": "mynethersdelight:striderloaf_block"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+	"Place down Ghasta with Cream": {
+      "conditions": {
+        "block": "mynethersdelight:ghasta_with_cream_block"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Make and place down any type of feast - they're placeable foods that you can take multiple portions out of, and they're usually very filling!"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "farmersdelight:roast_chicken_block"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Good Eatin'"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
+  "requirements": [
+    [
+	"Place down Roast Chicken", "Place down Stuffed Pumpkin", "Place down Honey Glazed Ham", "Place down Shepherd's Pie", "Place down Rice Roll Medley", "Place down Stuffed Hoglin", "Place down Fiery Fondue Pot", "Place down Eggplant Parmesan", "Place down Stuffed Squid", "Place down Striderloaf", "Place down Ghasta with Cream"
+	]
+  ]
+}

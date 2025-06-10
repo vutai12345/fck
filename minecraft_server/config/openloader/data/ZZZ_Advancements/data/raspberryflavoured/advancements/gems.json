@@ -1,0 +1,58 @@
+{
+  "parent": "raspberryflavoured:iron_pick",
+  "criteria": {
+    "Obtain Rough Cinnabar or Rough Diamond": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:rough_cinnabar",
+              "spelunkery:rough_diamond"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+	"Obtain Cinnabar or Diamond": {
+      "conditions": {
+        "items": [
+		  {
+            "items": [
+              "spelunkery:cinnabar",
+              "minecraft:diamond"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#ED3D69",
+      "text": "Make sand paper or a grindstone and use it to polish a rough gemstone"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "spelunkery:cinnabar"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "The Crystal Gems"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_goal"
+    },
+  "requirements": [
+    [
+      "Obtain Rough Cinnabar or Rough Diamond"
+    ],
+	[
+	  "Obtain Cinnabar or Diamond"
+	]
+  ]
+}

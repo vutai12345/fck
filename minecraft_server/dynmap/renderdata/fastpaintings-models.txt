@@ -1,0 +1,6 @@
+modname:fastpaintings
+
+modellist:id=%painting,state=facing:north
+modellist:id=%painting,state=facing:south
+modellist:id=%painting,state=facing:west
+modellist:id=%painting,state=facing:east

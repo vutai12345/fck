@@ -1,0 +1,296 @@
+{
+  "parent": "raspberryflavoured:feast",
+  "criteria": {
+    "Obtain Baked Potato": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:baked_potato"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Truffle Mash": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "environmental:truffle_mash"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Vegetable Soup": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:vegetable_soup"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Turkey Chowder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:turkey_chowder"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Baked Cod Stew": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:baked_cod_stew"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Scarlet Pierogies": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "brewinandchewin:scarlet_pierogies"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Rabbit Stew": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rabbit_stew"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Beef Stew": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:beef_stew"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Stuffed Pumpkin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:stuffed_pumpkin_block"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Fiery Fondue Pot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "brewinandchewin:fiery_fondue_pot"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Vodka": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "brewinandchewin:vodka"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Strongroot Ale": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "brewinandchewin:strongroot_ale"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Spicy Hoglin Stew": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mynethersdelight:spicy_hoglin_stew"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Sausage and Potatoes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mynethersdelight:sausage_and_potatoes"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Stuffed Potato": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:stuffed_potato"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Steak and Potatoes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:steak_and_potatoes"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Roast Chicken": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:roast_chicken_block"
+            ]
+          }
+        ]
+      }
+    },
+	"Obtain Shepherd's Pie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:shepherds_pie_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Make all of the meals and drinks that have potatoes in their recipes"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:baked_potato"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "My Life is Potato"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_joke"
+    },
+  "requirements": [
+    [
+	"Obtain Baked Potato"
+	],
+	[
+	"Obtain Truffle Mash"
+	],
+	[
+	"Obtain Vegetable Soup"
+	],
+	[
+	"Obtain Turkey Chowder"
+	],
+	[
+	"Obtain Baked Cod Stew"
+	],
+	[
+	"Obtain Scarlet Pierogies"
+	],
+	[
+	"Obtain Rabbit Stew"
+	],
+	[
+	"Obtain Beef Stew"
+	],
+	[
+	"Obtain Stuffed Pumpkin"
+	],
+	[
+	"Obtain Fiery Fondue Pot"
+	],
+	[
+	"Obtain Vodka"
+	],
+	[
+	"Obtain Strongroot Ale"
+	],
+	[
+	"Obtain Spicy Hoglin Stew"
+	],
+	[
+	"Obtain Sausage and Potatoes"
+	],
+	[
+	"Obtain Stuffed Potato"
+	],
+	[
+	"Obtain Steak and Potatoes"
+	],
+	[
+	"Obtain Roast Chicken"
+	],
+	[
+	"Obtain Shepherd's Pie"
+	]
+  ]
+}

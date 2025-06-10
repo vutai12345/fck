@@ -1,0 +1,51 @@
+{
+  "parent": "raspberryflavoured:ham",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:skeleton_skull",
+			  "minecraft:creeper_head",
+			  "minecraft:zombie_head",
+			  "supplementaries:enderman_head",
+			  "caverns_and_chasms:deeper_head",
+			  "caverns_and_chasms:peeper_head",
+			  "caverns_and_chasms:mime_head",
+			  "piglinproliferation:piglin_head",
+			  "piglinproliferation:piglin_brute_head",
+			  "piglinproliferation:piglin_alchemist_head",
+			  "piglinproliferation:zombified_piglin_head"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Get lucky while using a knife to deal the killing blow on one of a select few mobs to obtain its head - you can then crush the head with a hammer on a cutting board or a mechanical press for extra loot!"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "I'ma Head Out"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_task"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

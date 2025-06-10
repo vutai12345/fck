@@ -1,0 +1,15 @@
+modname:exposure
+
+texture:id=lightroom_bottom,filename=assets/exposure/textures/block/lightroom_bottom.png,xcount=1,ycount=1
+texture:id=lightroom_side,filename=assets/exposure/textures/block/lightroom_side.png,xcount=1,ycount=1
+texture:id=lightroom_top,filename=assets/exposure/textures/block/lightroom_top.png,xcount=1,ycount=1
+texture:id=lightroom_front_on,filename=assets/exposure/textures/block/lightroom_front_on.png,xcount=1,ycount=1
+texture:id=lightroom_front,filename=assets/exposure/textures/block/lightroom_front.png,xcount=1,ycount=1
+block:id=%lightroom,state=facing:north/lit:true,patch0=0:lightroom_side,patch1=0:lightroom_bottom,patch2=0:lightroom_front_on,patch3=0:lightroom_side,patch4=0:lightroom_top,patch5=0:lightroom_side,stdrot=true
+block:id=%lightroom,state=facing:north/lit:false,patch0=0:lightroom_side,patch1=0:lightroom_bottom,patch2=0:lightroom_front,patch3=0:lightroom_side,patch4=0:lightroom_top,patch5=0:lightroom_side,stdrot=true
+block:id=%lightroom,state=facing:south/lit:true,patch0=0:lightroom_bottom,patch1=0:lightroom_side,patch2=0:lightroom_top,patch3=0:lightroom_front_on,stdrot=true
+block:id=%lightroom,state=facing:south/lit:false,patch0=0:lightroom_bottom,patch1=0:lightroom_side,patch2=0:lightroom_top,patch3=0:lightroom_front,stdrot=true
+block:id=%lightroom,state=facing:west/lit:true,patch0=0:lightroom_bottom,patch1=0:lightroom_side,patch2=0:lightroom_top,patch3=0:lightroom_front_on,stdrot=true
+block:id=%lightroom,state=facing:west/lit:false,patch0=0:lightroom_bottom,patch1=0:lightroom_side,patch2=0:lightroom_top,patch3=0:lightroom_front,stdrot=true
+block:id=%lightroom,state=facing:east/lit:true,patch0=0:lightroom_bottom,patch1=0:lightroom_side,patch2=0:lightroom_top,patch3=0:lightroom_front_on,stdrot=true
+block:id=%lightroom,state=facing:east/lit:false,patch0=0:lightroom_bottom,patch1=0:lightroom_side,patch2=0:lightroom_top,patch3=0:lightroom_front,stdrot=true

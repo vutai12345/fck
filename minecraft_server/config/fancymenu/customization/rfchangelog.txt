@@ -1,0 +1,97 @@
+type = menu
+
+customization-meta {
+  identifier = rfchangelog
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = config/fancymenu/fancymenu_assets/backgroundshadows.png
+  orientation = mid-centered
+  x = -261
+  width = 522
+  action = addtexture
+  actionid = ea4d23f3-9a9e-483d-b882-692af3fc4c2b1707261155019
+  y = -153
+  height = 295
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = &6&nGameplay/Content Changes:%n%&e- &fUnstable spawners will now spawn more types of mobs%n%&e- &fUnstable spawner mob loot has been tweaked and re-balanced%n%&e- &fLoot bags' loot has been tweaked and re-balanced%n%&e- &fSaddles and chains' recipes have been tweaked%n%%n%&6&nCosmetic/Aesthetic Changes:%n%&e- &fThe Creepy Crippler enchantment has been renamed to %n%Hiss Hazard to avoid the previous name's negative %n%connotations and better imply its usage%n%&e- &fChanged texture of loot bags%n%%n%&6&nFixes/Technical Changes:%n%&e- &fKeybinds will no longer attempt to be %n%removed in non-client environments%n%&e- &fLoot bags will no longer drop unobtainable cake items
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -193
+  width = 387
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 0753e5b4-7a02-4d4e-8877-037b5dfb73041690066138901
+  y = -94
+  alignment = left
+  height = 167
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = closegui%btnaction_splitter_fm%
+  x = -102
+  width = 204
+  action = addbutton
+  actionid = 6d5a4aa0-6dcc-4ede-a838-09c3de7a27731690067224501
+  y = 78
+  label = Done
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = false
+  shadow = true
+  scale = 1.35
+  source = &o&nRASPBERRY FLAVOURED 3.0.2 CHANGELOG
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -192
+  width = 385
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 7c1eae62-f707-4682-90c9-eb6896e7a41c1701372163321
+  y = -112
+  alignment = centered
+  base_color = E8587C
+  height = 16
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/jxNe26WNYh%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/fancymenu_assets/discordbuttonhover.png
+  description = Join the RF%n%Discord server!
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = 6d5a4aa0-6dcc-4ede-a838-09c3de7a27731690067224501
+  x = 288
+  width = 20
+  action = addbutton
+  actionid = 3fd0d2f5-5337-4a56-b5a4-4679af6a36c01714671721695
+  y = 0
+  backgroundnormal = config/fancymenu/fancymenu_assets/discordbutton.png
+  height = 20
+}
+

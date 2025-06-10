@@ -1,0 +1,41 @@
+{
+  "parent": "raspberryflavoured:campfire",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "autumnity:sap_bottle"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "color": "#C44E00",
+      "text": "Right-click on a sappy maple log with a glass bottle to obtain sap - or find a bottle of it somewhere"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "autumnity:sap_bottle"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Happy Sappy"
+    }
+  },
+  "rewards": {
+      "function": "raspberryflavoured:sound_regular"
+    },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

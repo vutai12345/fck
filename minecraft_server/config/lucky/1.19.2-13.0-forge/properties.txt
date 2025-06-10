@@ -1,0 +1,2 @@
+doDropsOnRightClick=false
+showUpdateMessage=false

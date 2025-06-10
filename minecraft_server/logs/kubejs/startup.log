@@ -1,0 +1,47 @@
+[08:56:42] [INIT] KubeJS 1902.6.2-build.69; MC 1902 forge
+[08:56:42] [INIT] Loaded plugins:
+[08:56:42] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[08:56:42] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[08:56:42] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[08:56:42] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[08:56:42] [INIT] - com.almostreliable.morejs.Plugin
+[08:56:42] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[08:56:43] [INFO] Loaded script startup_scripts:block_modify.js in 0.154 s
+[08:56:43] [INFO] Loaded script startup_scripts:custom_copper_blocks.js in 0.017 s
+[08:56:43] [INFO] attributes_modify.js#3: Loaded Java class 'net.minecraft.world.entity.ai.attributes.AttributeModifier'
+[08:56:43] [INFO] Loaded script startup_scripts:attributes_modify.js in 0.059 s
+[08:56:43] [INFO] Loaded script startup_scripts:blocks.js in 0.026 s
+[08:56:43] [INFO] Loaded script startup_scripts:stack_size_modify.js in 0.004 s
+[08:56:43] [INFO] Loaded script startup_scripts:fetch_java_classes.js in 0.001 s
+[08:56:43] [INFO] potions_effects.js#3: Loaded Java class 'net.minecraft.world.damagesource.EntityDamageSource'
+[08:56:43] [INFO] potions_effects.js#36: Loaded Java class 'net.minecraft.world.effect.MobEffectInstance'
+[08:56:43] [INFO] Loaded script startup_scripts:potions_effects.js in 0.018 s
+[08:56:43] [INFO] Loaded script startup_scripts:music_discs.js in 0.004 s
+[08:56:43] [INFO] Loaded script startup_scripts:durability_modify.js in 0.007 s
+[08:56:43] [INFO] Loaded script startup_scripts:icons.js in 0.002 s
+[08:56:43] [INFO] reflection_blocks.js#3: Loaded Java class 'net.minecraft.world.level.block.TintedGlassBlock'
+[08:56:43] [INFO] reflection_blocks.js#4: Loaded Java class 'net.minecraft.world.level.block.Blocks'
+[08:56:43] [INFO] reflection_blocks.js#5: Loaded Java class 'net.minecraft.world.level.block.state.BlockBehaviour$Properties'
+[08:56:43] [INFO] reflection_blocks.js#6: Loaded Java class 'net.minecraft.world.item.BlockItem'
+[08:56:43] [INFO] reflection_blocks.js#7: Loaded Java class 'net.minecraft.world.item.Item$Properties'
+[08:56:43] [INFO] reflection_blocks.js#8: Loaded Java class 'net.minecraft.world.level.material.Material'
+[08:56:43] [INFO] Loaded script startup_scripts:reflection_blocks.js in 0.039 s
+[08:56:43] [INFO] hard_remove_tooltips.js#3: Loaded Java class 'net.minecraftforge.common.MinecraftForge'
+[08:56:43] [INFO] hard_remove_tooltips.js#4: Loaded Java class 'net.minecraftforge.eventbus.api.EventPriority'
+[08:56:43] [INFO] hard_remove_tooltips.js#5: Loaded Java class 'dev.latvian.mods.kubejs.KubeJS'
+[08:56:43] [INFO] hard_remove_tooltips.js#7: Loaded Java class 'net.minecraftforge.event.entity.player.ItemTooltipEvent'
+[08:56:43] [INFO] Loaded script startup_scripts:hard_remove_tooltips.js in 0.025 s
+[08:56:43] [INFO] misc.js#217: Loaded Java class 'net.minecraft.core.Registry'
+[08:56:43] [INFO] misc.js#218: Loaded Java class 'net.minecraft.tags.TagKey'
+[08:56:43] [INFO] misc.js#233: Loaded Java class 'net.minecraft.world.entity.ai.attributes.RangedAttribute'
+[08:56:43] [INFO] Loaded script startup_scripts:misc.js in 0.026 s
+[08:56:43] [INFO] Loaded script startup_scripts:food_modify.js in 0.047 s
+[08:56:43] [INFO] Loaded script startup_scripts:incomplete_items.js in 0.003 s
+[08:56:43] [INFO] horse_armor.js#3: Loaded Java class 'net.minecraft.world.item.HorseArmorItem'
+[08:56:43] [INFO] Loaded script startup_scripts:horse_armor.js in 0.006 s
+[08:56:43] [INFO] Loaded script startup_scripts:sound_events.js in 0.002 s
+[08:56:43] [INFO] Loaded script startup_scripts:items.js in 0.007 s
+[08:56:43] [INFO] Loaded script startup_scripts:worldgen.js in 0.01 s
+[08:56:43] [INFO] Loaded script startup_scripts:enchanted_tablets.js in 0.001 s
+[08:56:43] [INFO] Loaded script startup_scripts:copper_brush.js in 0.002 s
+[08:56:43] [INFO] Loaded 21/21 KubeJS startup scripts in 1.081 s

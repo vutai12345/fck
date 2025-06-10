@@ -1,0 +1,390 @@
+{
+  "raspberryflavoured:furnace": {
+    "criteria": {
+      "Place down Furnace": "2025-05-30 06:46:13 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:encased_fan": {
+    "criteria": {
+      "0": "2025-06-08 09:08:22 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:atlas": {
+    "criteria": {
+      "Obtain Atlas": "2025-06-07 07:08:03 +0000"
+    },
+    "done": false
+  },
+  "raspberryflavoured:all_discs": {
+    "criteria": {
+      "C418 - cat": "2025-06-07 06:46:38 +0000",
+      "C418 - 13": "2025-06-06 08:11:37 +0000",
+      "C418 - ward": "2025-06-06 06:56:09 +0000",
+      "C418 - mellohi": "2025-06-06 07:01:00 +0000",
+      "C418 - death": "2025-06-08 06:46:38 +0000",
+      "C418 - face": "2025-06-08 07:20:48 +0000"
+    },
+    "done": false
+  },
+  "raspberryflavoured:all_ores": {
+    "criteria": {
+      "Obtain Zinc Ore": "2025-06-06 07:53:54 +0000",
+      "Obtain Copper Ore": "2025-05-30 06:59:33 +0000"
+    },
+    "done": false
+  },
+  "raspberryflavoured:raw_iron": {
+    "criteria": {
+      "0": "2025-05-30 07:00:19 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:cloth": {
+    "criteria": {
+      "0": "2025-05-29 05:05:43 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:hopper": {
+    "criteria": {
+      "Place down Hopper": "2025-05-30 15:13:37 +0000"
+    },
+    "done": false
+  },
+  "raspberryflavoured:compass": {
+    "criteria": {
+      "Obtain Compass": "2025-06-06 06:29:58 +0000",
+      "Obtain Depth Gauge": "2025-06-07 08:14:20 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:campfire": {
+    "criteria": {
+      "Light Campfire Kindling on fire": "2025-05-30 10:24:44 +0000"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_glowstone": {
+    "criteria": {
+      "inv_changed-glowstone": "2025-05-29 04:51:56 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:engineer": {
+    "criteria": {
+      "Obtain Engineer\u0027s Wrench": "2025-06-07 14:25:02 +0000"
+    },
+    "done": false
+  },
+  "raspberryflavoured:hunting_root": {
+    "criteria": {
+      "0": "2025-05-29 04:56:58 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:armour": {
+    "criteria": {
+      "0": "2025-05-30 08:00:36 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:straw": {
+    "criteria": {
+      "0": "2025-06-07 13:15:31 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:nether": {
+    "criteria": {
+      "0": "2025-06-07 08:53:32 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:all_wood": {
+    "criteria": {
+      "Obtain Chestnut Log": "2025-06-07 09:10:53 +0000",
+      "Obtain Spruce Log": "2025-05-29 04:51:56 +0000",
+      "Obtain Birch Log": "2025-06-05 13:51:25 +0000",
+      "Obtain Oak Log": "2025-05-30 06:40:17 +0000",
+      "Obtain Jungle Log": "2025-06-07 03:37:59 +0000",
+      "Obtain Cherry Log": "2025-05-29 05:18:45 +0000"
+    },
+    "done": false
+  },
+  "toms_storage:unlock_netherite": {
+    "criteria": {
+      "inv_changed-netherite": "2025-05-29 04:51:56 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:strong_hoes": {
+    "criteria": {
+      "Obtain Iron Hoe": "2025-05-30 10:04:55 +0000"
+    },
+    "done": false
+  },
+  "raspberryflavoured:plant_seed": {
+    "criteria": {
+      "Plant Carrot on Farmland": "2025-05-30 08:36:45 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:millstone": {
+    "criteria": {
+      "0": "2025-06-07 09:01:18 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:mech_press": {
+    "criteria": {
+      "0": "2025-05-30 07:45:40 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:silver": {
+    "criteria": {
+      "0": "2025-05-30 07:04:49 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:sap": {
+    "criteria": {
+      "0": "2025-06-07 08:50:45 +0000"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_dia_pearl": {
+    "criteria": {
+      "inv_changed-ender_pearl": "2025-05-29 04:51:56 +0000",
+      "inv_changed-diamond": "2025-05-29 04:51:56 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:sleep": {
+    "criteria": {
+      "0": "2025-05-30 06:35:01 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:all_fish": {
+    "criteria": {
+      "Obtain Tropical Fish": "2025-05-30 07:17:24 +0000",
+      "Obtain Bluegill": "2025-05-29 05:03:45 +0000",
+      "Obtain Gar": "2025-05-29 05:49:48 +0000"
+    },
+    "done": false
+  },
+  "raspberryflavoured:cooking_pot": {
+    "criteria": {
+      "0": "2025-05-30 10:24:53 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:stunning": {
+    "criteria": {
+      "00": "2025-06-07 14:44:29 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:fortress": {
+    "criteria": {
+      "Find a Nether Fortress": "2025-06-07 08:54:38 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:dwarf_geode": {
+    "criteria": {
+      "0": "2025-06-05 13:53:27 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:obsidian": {
+    "criteria": {
+      "0": "2025-06-07 06:12:21 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:dimensional_tears": {
+    "criteria": {
+      "0": "2025-06-06 08:30:19 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:ceramic_shears": {
+    "criteria": {
+      "0": "2025-05-30 09:21:16 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:steel": {
+    "criteria": {
+      "0": "2025-06-07 13:28:09 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:pickaxe": {
+    "criteria": {
+      "0": "2025-05-29 04:56:58 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:andesite_alloy": {
+    "criteria": {
+      "0": "2025-05-30 07:40:05 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:potato_meals": {
+    "criteria": {
+      "Obtain Vegetable Soup": "2025-05-30 09:32:15 +0000",
+      "Obtain Shepherd\u0027s Pie": "2025-06-07 14:35:05 +0000"
+    },
+    "done": false
+  },
+  "raspberryflavoured:hoe": {
+    "criteria": {
+      "0": "2025-05-30 10:04:55 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:peeper": {
+    "criteria": {
+      "0": "2025-06-05 14:03:13 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:blaze_burner": {
+    "criteria": {
+      "0": "2025-06-07 13:25:44 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:tech_root": {
+    "criteria": {
+      "0": "2025-05-29 04:58:31 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:gems": {
+    "criteria": {
+      "Obtain Rough Cinnabar or Rough Diamond": "2025-05-30 07:11:13 +0000",
+      "Obtain Cinnabar or Diamond": "2025-05-30 09:08:12 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:enchanted_apple": {
+    "criteria": {
+      "0": "2025-06-07 08:45:49 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:crushing_wheels": {
+    "criteria": {
+      "0": "2025-06-07 14:04:11 +0000"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_chest": {
+    "criteria": {
+      "inv_changed-chest": "2025-05-29 04:51:56 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:diamond_pick": {
+    "criteria": {
+      "0": "2025-05-30 10:06:07 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:mech_mixer": {
+    "criteria": {
+      "0": "2025-06-07 09:17:54 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:mob_heads": {
+    "criteria": {
+      "0": "2025-06-06 06:42:35 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:root": {
+    "criteria": {
+      "0": "2025-05-29 03:21:00 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:iron_pick": {
+    "criteria": {
+      "0": "2025-05-29 06:58:39 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:farming_root": {
+    "criteria": {
+      "1": "2025-05-29 04:52:46 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:all_crops": {
+    "criteria": {
+      "Obtain Tomato": "2025-05-30 08:36:30 +0000",
+      "Obtain Sugar Cane": "2025-05-29 05:17:46 +0000",
+      "Obtain Glow Berries": "2025-05-30 06:54:59 +0000",
+      "Obtain Onion": "2025-05-30 06:39:21 +0000",
+      "Obtain Vanilla Pods": "2025-05-29 06:25:17 +0000",
+      "Obtain Pumpkin": "2025-05-29 05:50:19 +0000",
+      "Obtain Potato": "2025-05-30 08:36:53 +0000",
+      "Obtain Wheat": "2025-05-30 07:55:50 +0000",
+      "Obtain Strawberries": "2025-05-30 08:43:14 +0000",
+      "Obtain Apple": "2025-06-06 06:44:04 +0000",
+      "Obtain Cabbage": "2025-05-30 09:19:52 +0000",
+      "Obtain Corn Cob": "2025-05-30 08:40:06 +0000",
+      "Obtain Rice": "2025-05-29 06:58:45 +0000",
+      "Obtain Beetroot": "2025-05-30 08:39:26 +0000",
+      "Obtain Mint Leaves": "2025-05-30 09:59:25 +0000",
+      "Obtain Sweet Berries": "2025-05-29 05:05:15 +0000",
+      "Obtain Carrot": "2025-05-29 06:54:37 +0000"
+    },
+    "done": false
+  },
+  "raspberryflavoured:all_metals": {
+    "criteria": {
+      "Obtain Iron Ingot": "2025-05-29 05:28:49 +0000",
+      "Obtain Zinc Ingot": "2025-06-07 07:03:15 +0000",
+      "Obtain Gold Ingot": "2025-05-30 09:09:17 +0000",
+      "Obtain Steel Ingot": "2025-06-07 13:28:09 +0000",
+      "Obtain Copper Ingot": "2025-05-29 05:01:13 +0000",
+      "Obtain Lead Ingot": "2025-05-30 07:34:05 +0000",
+      "Obtain Silver Ingot": "2025-06-06 05:59:59 +0000"
+    },
+    "done": false
+  },
+  "raspberryflavoured:water_wheel": {
+    "criteria": {
+      "Place down Large Water Wheel": "2025-05-30 08:05:24 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:copper_pick": {
+    "criteria": {
+      "0": "2025-05-29 05:01:28 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:shield": {
+    "criteria": {
+      "0": "2025-05-30 08:16:51 +0000"
+    },
+    "done": true
+  },
+  "raspberryflavoured:dungeon": {
+    "criteria": {
+      "Find a Zombie Catacomb": "2025-06-06 06:39:38 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}
